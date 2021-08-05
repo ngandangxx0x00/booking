@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+#container
+{width: 100%;
+ height:auto;
+ background-color: antiquewhite;
+ margin: 0 auto;
+ align-items: center;
+}
+@font-face
+{font-family: fontt;
+src: url("../font/SourceSansPro-Light.ttf");
+}
+.header
+{width: 100%;
+ height: 115px;
+ background-color:#191919;
+}
+.logo
+{width: 30%;
+ height: 115px;
+ background-color:#191919;
+ float:left;
+}
+
+.menu
+{width:70%;
+ height:115px;
+ background-color:#191919;
+ float: right;
+}
+.menu ul
+{list-style: none;
+ padding: 0;
+ 
+}
+
+.menu ul li
+{list-style: none;
+position: relative;
+float: left;
+padding:30px 50px 30px 40px;
+font-family: fontt;
+}
+.menu ul li ul 
+{position: absolute;
+ top: 30px;
+ left: 0;
+ visibility: hidden;
+}
+.menu ul li:hover ul
+.menu ul li ul li
+{width: 100px;}
+.menu ul li
+{padding: 50px;
+ float: right;
+}
+.menu ul li a
+{text-decoration: none;
+ color: aliceblue;
+}
+.menu ul li:hover a
+{color: saddlebrown;
+}
+.slider
+{width: 100%;
+ height:650px;
+ background: url("../images/img1.jpg");
+ background-position: center;
+ margin: 0 auto;
+}
+.slider_a
+{width: 100%;
+ height:650px;
+ background-color: none;
+ padding: 150px;
+ font-family: fontt;
+}
+.slider_a ul
+{list-style: none;
+ padding: 0;
+}
+.slider_a ul li
+{list-style: none;
+position: relative;
+float: left;
+padding:20px 0px 20px 40px;
+font-family: fontt;
+}
+.slider_a ul li
+{padding: 20px;
+ float: left;
+}
+.slider_a ul li a
+{text-decoration: none;
+ color: #383636;
+}
+
+.block
+{width: 100%;
+ height:500px;
+ background-color: yellow;
+}
+.block_a
+{width: 25%;
+ height:500px;
+ background-color: aliceblue;
+ float:left;
+ padding: 5%;
+ box-sizing: border-box;
+ font-family: fontt;
+}
+.data
+{width: 100%;
+ height:600px;
+ background-color: turquoise;
+}
+.data_a
+{width: 60%;
+ height:600px;
+ background-color: pink;
+ float: left;
+}
+.data_b
+{width: 40%;
+ height:600px;
+ background-color: mistyrose;
+ float: right;
+ align-items: center;
+ font-family: fontt;
+background: white;
+
+}
+.form
+{background: white;
+align-items: center;
+width:400px;
+height: 300px;
+margin: 100px;
+box-sizing: border-box;
+align-content: center;
+align-items: center;
+}
+button
+{width:150px;
+ height:50px;
+ background-color:saddlebrown;
+ border-radius: 10px;
+ font-size: 14px;
+ color: aliceblue;
+ font-family: fontt;
+ margin-top:50px;
+}
+body
+{margin: 0;
+padding: 0;
+    background: none;}
+.pic
+{width: 100%;
+    height: 800%;}
+.slidershow{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    
+}
+.middle{
+    position: absolute;
+   
+  
+    
+}
+.navigation{
+    position: absolute;
+    transform: translatex(-50%);
+    display: flex;
+
+    
+}
+.bar{width: 50px;
+   height: 10px;
+ border : 2px solid #fff;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    
+}
+.picc{
+    width: 20%;
+    transition: 0.6s;
+    
+}
+.picc img{
+    width: 100%;
+    height: 800px;
+    
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+    
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+    
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+    
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+    
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+    
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+    
+}
+.pic
+{width: 100%;
+ height:800px;
+ background-color: darkseagreen;
+}
+.testimonials
+{width: 100%;
+ height:600px;
+ background-color: antiquewhite;
+}
+.other
+{width: 100%;
+ height:600px;
+ background-color: whitesmoke;
+ font-size: 14px;
+ color: aliceblue;
+ font-family: fontt;
+}
+.other1
+{width: 30%;
+height: 400px;
+float:left;
+ padding: 5%;
+ box-sizing: border-box;
+ font-family: fontt;
+}
+}
+.final
+{width: 100%;
+ height:250px;
+ background-color: darksalmon;
+}
+.final_a
+{width: 60%;
+ height:250px;
+ background-color: #191919;
+ float: left;
+ font-size: 14px;
+ color: aliceblue;
+ font-family: fontt;
+ padding: 20px 40px 20px 30px;
+ box-sizing: border-box;
+ 
+}
+.final_b
+{width: 40%;
+ height:250px;
+ background-color: #191919;
+ float: right;
+ font-size: 14px;
+ color: aliceblue;
+ font-family: fontt;
+ padding: 20px 40px 20px 30px;
+ box-sizing: border-box;
+ 
+}
+
+
+
+
+
